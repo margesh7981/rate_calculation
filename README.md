@@ -31,6 +31,10 @@ Finding cheapest rate between origin and destianation
 
   RateCalculation::GetRate.new("CNSHA","NLRTM").cheapest_direct_or_indirect_sailing
   
+3. Return the cheapest direct or indirect fastest sailing legs
+
+   RateCalculation::GetRate.new("CNSHA","NLRTM").fastest_sailing_legs
+  
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/rate_calcualtion/fork )
